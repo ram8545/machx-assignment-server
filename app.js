@@ -10,4 +10,4 @@ app.post('/', convertImage);
 app.get('/download', downloadConvertedImage);
 
 
-app.listen(5000, () => console.log('listening on port 5000'));
+app.listen(process.env.PORT || 5000, () => console.log(`listening on port ${process.env.PORT} or 5000`));
