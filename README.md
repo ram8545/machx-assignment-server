@@ -7,5 +7,4 @@
 sudo docker build -t machx-assignment-server .
 
 ##Docker Run
-Helllo hi
 sudo docker run -p 5000:5000 -it machx-assignment-server
